@@ -1,12 +1,29 @@
-# React + Vite
+Lee Lykaios
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Advanced React E-Commerce (Cyberpunk Theme)
 
-Currently, two official plugins are available:
+This is a minimal but functional **React E-Commerce web app** built from scratch.  
+It demonstrates the core features needed for a modern shopping experience, styled with a futuristic cyberpunk look.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- 🛍️ Product listing with dynamic data fetched from [FakeStore API].
+- 📂 Category filtering with dropdown selection.
+- 🛒 Shopping cart with add, remove, and clear functionality.
+- 💾 Cart persistence using **sessionStorage**.
+- ⚡ State management handled by **Redux Toolkit**.
+- 🔄 Data fetching and caching powered by **TanStack React Query v5**.
+- 🎨 Cyberpunk-inspired theme using custom **CSS (neon colors, glowing effects, futuristic font)**.
 
-## Expanding the ESLint configuration
+## Tech Stack
+- **React 18 + Vite** for fast, modern development.
+- **Redux Toolkit** for cart state management.
+- **TanStack React Query v5** for API handling.
+- **FakeStore API** as the product and category source.
+- **Custom CSS** with Google Fonts (Orbitron) for the cyberpunk design.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Project Overview
+The app allows browsing products, filtering by category, and managing a shopping cart.  
+It’s designed to be both minimal and extendable — the core functionality is complete, while the visual theme gives it a unique futuristic vibe.
+
+---
+✨ This project showcases how to combine React, Redux, and React Query into a fully working e-commerce base, with a creative twist in design.
